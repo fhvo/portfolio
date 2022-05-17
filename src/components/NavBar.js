@@ -1,4 +1,5 @@
-function NavBar(){
+import '../styles/navBar.css'
+const NavBar = () => {
     return (
         <ul className="navbar">
             <h2>Team Name</h2>
@@ -6,7 +7,7 @@ function NavBar(){
             <li>Contact</li>
         </ul>
     );
-    
+
     }
-    
+
     export default NavBar;
