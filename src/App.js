@@ -4,9 +4,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 function App() {
   return (
-    <div className="main"> 
+    <div className="main">
         <Header />
-        <h1>Hello</h1>
+        <h1>Lorem Ipsum</h1>
         <Footer/>
     </div>
   );
