@@ -1,6 +1,10 @@
 function NavBar(){
     return (
-        <h1>Test</h1>
+        <ul className="navbar">
+            <h2>Team Name</h2>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
     );
     
     }
