@@ -1,0 +1,28 @@
+.ml{
+    height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #faf5f0;
+}
+.ml-texts{
+    width: 65%;
+}
+.ml-title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.ml-sub{
+/*  */
+}
+.ml-desc{
+    margin: 20px 0;
+}
+.ml-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
