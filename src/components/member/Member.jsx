@@ -1,8 +1,9 @@
 
 import React from "react";
 import "./member.css";
-const Member = ({img,link}) => {
+const Member = ({image,link}) => {
   return (
+    
     <div className="m">
       <div className="m-browser">
         <div className="m-circle"></div>
@@ -10,7 +11,7 @@ const Member = ({img,link}) => {
         <div className="m-circle"></div>
       </div>
       <a href={link} target="_blank" rel="noreferrer">
-        <img src={img} alt="" className="m-img" />
+        <img src={image} alt="" className="m-img" />
       </a>
     </div>
   );

@@ -18,7 +18,7 @@ const MemberList = () => {
         {members.map((item)=>
           <Member
           key={item.id}
-          image={item.img}
+          image={item.image}
           link={item.link}  
           />
         )}
