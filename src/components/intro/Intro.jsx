@@ -4,8 +4,8 @@ const Intro = () => {
   return (
     <div className="i">
       <div className="i-left">
-        <div class="i-left-wrapper">
-          <h2 className="i-intro">Salut!</h2>
+        <div class="i-left-wrapper">et ahead
+          <h2 className="i-intro">Be Ahead, Be Modern.</h2>
           <h1 className="i-name">We are the B.I.P</h1>
           <div className="i-title">
             <div className="i-title-wrapper">

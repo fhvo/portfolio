@@ -1,0 +1,28 @@
+.m{
+    width: 25%;
+    height: 50vh;
+    margin: 20px 10px;
+    border: 2px solid #b7b4b0;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.m-browser{
+    height:20px;
+    background-color: rgba(243, 242, 242);
+    display: flex;
+    align-items: center;
+}
+
+.m-circle{
+    width:6px;
+    height:6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+
+.m-img {
+    width: 100%;
+    transition: all 10s ease;
+  }
