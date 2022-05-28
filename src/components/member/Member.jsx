@@ -1,9 +1,7 @@
-
 import React from "react";
 import "./member.css";
-const Member = ({image,link}) => {
+const Member = ({ image, link }) => {
   return (
-    
     <div className="m">
       <div className="m-browser">
         <div className="m-circle"></div>

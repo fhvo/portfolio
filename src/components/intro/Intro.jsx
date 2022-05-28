@@ -1,10 +1,13 @@
-import "./intro.css";
 import TeamIllust from "../../img/team-illust.svg";
-const Intro = () => {
+
+import "./intro.css";
+
+const Intro = (props) => {
   return (
-    <div className="i">
+    <div id={props.id} className="i">
       <div className="i-left">
-        <div class="i-left-wrapper">et ahead
+        <div class="i-left-wrapper">
+          et ahead
           <h2 className="i-intro">Be Ahead, Be Modern.</h2>
           <h1 className="i-name">We are the B.I.P</h1>
           <div className="i-title">
