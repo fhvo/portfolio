@@ -1,5 +1,5 @@
 .a {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   /* place item in middle horizontally */
   align-items: center;
@@ -12,7 +12,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  /* background-color: red; */
   height: 100%;
 }
 
@@ -23,7 +22,7 @@
 
 .a-card {
   width: 60%;
-  height: 70vh;
+  height: 60vh;
   border-radius: 30px;
   position: relative;
   overflow: hidden;
@@ -33,7 +32,7 @@
   position: absolute;
   top: 50px;
   left: 50px;
-  background-color: #68829E;
+  background-color: #242628;
 }
 
 .a-img {
@@ -52,4 +51,28 @@
 
 .a-desc {
   font-weight: 300;
+}
+
+@media screen and (max-width:480px) {
+  .a{
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .a-left{
+    width: 100%;
+  }
+
+  .a-card{
+    height: 35vh;
+  }
+  
+  .a-card.bg{
+    display: none;
+  }
+
+  .a-right{
+    margin-right: 0px;
+    padding:20px;
+  }
 }

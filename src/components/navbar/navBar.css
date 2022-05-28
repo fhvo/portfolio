@@ -1,4 +1,55 @@
-.navBar{
-    background: #006899;
-    margin-left: 20px;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.n {
+  color: rgb(32, 28, 37);
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.n ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.s-ti {
+  font-size: 2rem;
+}
+
+.n a {
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.n li.active {
+  display: inline;
+  border-bottom: 3px solid black;
+}
+
+.n li:hover {
+  display: inline;
+  border-bottom: 3px solid black;
+  background-color: white;
+}
+
+nav {
+  position: fixed;
+  top: 0 px;
+  width: 100%;
+  z-index: 1;
 }
