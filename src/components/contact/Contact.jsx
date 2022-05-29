@@ -66,7 +66,7 @@ function Contact(props) {
             <input type="text" placeholder="Email" name="user_email" />
             {done && <b>"Thank you..."</b>}
             <textarea rows="5" placeholder="Message" name="message" />
-            <button>Submit</button>
+            <button type='submit'>Submit</button>
           </form>
         </div>
       </div>
