@@ -36,11 +36,6 @@ body {
   padding: 0.25rem;
 }
 
-.n li.active {
-  display: inline;
-  border-bottom: 3px solid black;
-}
-
 .n li:hover {
   display: inline;
   border-bottom: 3px solid black;
